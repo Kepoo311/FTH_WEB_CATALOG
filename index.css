@@ -48,11 +48,11 @@ a {
    
     from,
     to {
-      font-variation-settings: 'wght' 100;
+      font-weight: 400;
     }
 
    50% {
-      font-variation-settings: 'wght' 900;
+      font-weight: 900;
     }
   }
 
