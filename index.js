@@ -1,3 +1,12 @@
+window.onload = function() {
+  document.getElementById("splash-screen").style.opacity = 0;
+  setTimeout(function() {
+    document.getElementById("splash-screen").style.display = "none";
+  }, 1000); 
+};
+
+
+
 const dabar = [
     { id : 1, nabar: "Faith Industries \"Dark Determination\" Pullover Hoodie Zipp Navy", harga: 475000 , category: "jacket" , img: "jaket1.webp"},
     { id : 2, nabar: "Faith Industries \"Excalibur\" Black Tshirt", harga: 195000 , category: "baju" , img: "baju1.jpg"},
